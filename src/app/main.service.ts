@@ -1,3 +1,6 @@
+import { Injectable } from '@angular/core';
+
+@Injectable()
 
 export class MainService {
 
@@ -5,5 +8,12 @@ export class MainService {
 
   getcourses(){
     return['c','c++']
+  }
+
+  getAddress(){
+    return{
+      state:'daman',
+      city:'ynr'
+    }
   }
 }
